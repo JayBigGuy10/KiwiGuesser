@@ -1,5 +1,5 @@
 Plan
-<img width="3225" height="1899" alt="KiwiGuesser" src="https://github.com/user-attachments/assets/5cab3bb4-bc33-4c86-8696-1b1a023927f5" />
+![plan](planimg.png)
 
 Data Engineer
  - DynamoDb
@@ -7,8 +7,8 @@ Data Engineer
 
 Tester
  - Testing
- - Cloudfront
- - S3
+ - S3, create a static bucket to hold html, css, js provided by the frontend engineer and a second bucket to hold user profile pics
+ - Cloudfront, connect to the created S3 buckets, forward any other non-s3 requests to elastic load balancer
 
 DevOps Engineer
  - Elastic Load Balancer
