@@ -13,6 +13,8 @@ Tester
 DevOps Engineer
  - Elastic Load Balancer
  - EC2
+ - https://github.com/developmentseed/titiler
+ - titiler.xyz
 
 AWS Integration Engineer
  - Cloudwatch
